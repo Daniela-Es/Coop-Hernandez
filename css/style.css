@@ -1,0 +1,203 @@
+/* Color Theme Swatches in Hex */
+.color-1 { color: #A65005; }
+.color-2 { color: #BF8F65; }
+.color-3 { color: #F2CEAE; }
+.color-4 { color: #8C4B26; }
+.color-5 { color: #400E03; }
+
+
+.bg-1 { background-color: #A65005; }
+.bg-2 { background-color: #BF8F65; }
+.bg-3 { background-color: #F2CEAE; }
+.bg-4 { background-color: #8C4B26; }
+.bg-5 { background-color: #400E03; }
+
+
+body{
+  background-color: #F2CEAE;
+}
+
+
+header{
+  height: 60vh;
+  width: 100vw;
+  background-image: url(https://images.pexels.com/photos/128639/pexels-photo-128639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+  font-family: 'Monoton', cursive;
+  display: flex;
+  align-items: center;
+}
+
+.borde-3{
+  border: 2px solid black;
+}
+.borde{
+  border: 2px solid rgb(196, 22, 22); 
+} 
+
+.fa-big{
+  font-size: 230px;
+}
+.sombra{
+  text-shadow: 4px 4px 2px #f2ceae;
+}
+.sombra-2{
+  text-shadow: 4px 4px 2px #bf8f65;
+}
+
+.sombra-3{
+ text-shadow: 2px 2px 2px #8C4B26;
+}
+
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+}  */
+.bg-color-1 {
+  height: 100%;
+  width: 100%;
+  background-color: #400E03;
+  /* display: flex;
+  justify-content: center;  
+  align-items: center; */
+
+}
+.bg-color-2 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #A65005;
+  display: flex;
+  align-items: end; 
+  
+}
+
+.puzzle {
+  height: 80px;
+  width: 80px;
+  background: linear-gradient(90deg, #A65005 50%, rgba(255,192,203,0) 50%);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+}
+
+/* 
+.puzzle:after {
+  content: "";
+  height: 45px;
+  width: 25px;
+  background: rgba(255,255,200,1);
+  border-radius: 0% 50% 50% 0%; 
+  position: absolute;
+  top: 50%;
+  transform: translate(100%,-50%);
+} */
+
+/* 
+.puzzle:before {
+  content: "";
+  height: 50px;
+  width: 50px;
+  background: rgba(255,255,200,.6);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%,-50%);
+} */
+
+h1{
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+h2{
+  padding-left: 15%;
+  padding-top: 40%;
+} 
+
+nav{
+    background-color: #A65005;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 20px;
+}
+
+nav a:hover {
+  font-size: 25px;
+  color: #F2CEAE;
+}
+
+.separador{
+  margin: 30px;
+  font-family: 'Monoton', cursive;
+  border-top: 10px double #A65005;
+  border-bottom: 10px double #A65005;
+}
+
+.marco{
+  margin: 20px;
+  border: 10px double #A65005;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-size: auto;
+  padding: 12px;
+}
+
+.contenedor{
+  overflow: hidden;
+}
+
+
+.nosotros img{
+  /* filter: sepia(100%); */
+  transition: 1.5s;
+} 
+
+.nosotros img:hover{
+  filter: none;
+  transform: scale(1.1);
+  transition: 1.5s;
+}
+
+/* .cerrar{
+  display: none !important; 
+} */
+
+.productos{
+  font-family: 'Monoton', cursive;
+}
+
+.caja-info{
+  height: 60%;
+}
+
+.modal-body{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  
+}
+
+.modal-footer a:hover{
+  color: #400E03
+}
+
+.help{ 
+  cursor: help; 
+}
+
+footer{
+    width: 100vw;
+    height: 30vh;
+    background-image: url(https://images.pexels.com/photos/128639/pexels-photo-128639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer a{
+  color: white;
+}
+

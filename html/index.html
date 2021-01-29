@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- link externos -->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- iconos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- fuentes -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&display=swap"
+    rel="stylesheet">
+
+  <!-- links internos -->
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>Jugueteria Hernandez</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <!-- logo -->
+        <div class="col-4 text-center">
+          <i class="fa fa-puzzle-piece fa-big color-5 sombra wow animate__animated animate__hinge"></i>
+        </div>
+        <!-- nombre de la cooperativa -->
+        <div class="col-4">
+          <div class="col-md bg-color-1 wow animate__animated animate__swing">
+            <h1 class="color-3 sombra-2 h1">Jugueteria</h1>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="col-md bg-color-2 wow animate__animated animate__swing">
+            <div class="puzzle"></div>
+            <div>
+              <h2 class="color-3 sombra-2 h1">Hernandez</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <!-- navegacion -->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active color-5" aria-current="page" href="#">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link color-5" href="#productos">Nuestros Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link color-5" href="#valores">Cooperando</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link color-5" href="#galeria">Galeria</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- presentacion -->
+    <div class="p-4 color-1 separador">
+      <h3>Conoce a la familia</h3>
+    </div>
+
+    <!-- marco para presentacion -->
+    <div class="marco nosotros">
+      <div class="card-group">
+        <!-- carta Martin -->
+        <div class="card">
+          <div class="contenedor">
+            <img src="../img/martin.jpg" class="card-img-top" alt="martin-pedagogo">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title color-5">Martin</h4>
+            <p class="card-text color-5">Pedagodo <br>
+              Creo que la educacion tambien debe ser cooperativa, todos podemos aprender del otro, sin importar quien
+              sea.
+            </p>
+          </div>
+        </div>
+        <!-- contenedor Laura -->
+        <div class="card">
+          <div class="contenedor">
+            <img src="../img/laura.jpg" class="card-img-top" alt="laura-carpintera">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title color-5">Laura</h4>
+            <p class="card-text color-5">Carpintera <br>
+              El oficio de la carpinteria nos ha ayudado a desarrollar una identidad familiar. Nos une a nuestra
+              comunidad mas alla de la propia empresa.
+            </p>
+          </div>
+        </div>
+        <!-- contenedor Jorge -->
+        <div class="card">
+          <div class="contenedor">
+            <img src="../img/jorge.jpg" class="card-img-top" alt="jorge-estudiante">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title color-5">Jorge</h4>
+            <p class="card-text color-5">Estudiante
+              <br>
+              Aprender el negocio familiar me ha dado herramientas que complementan mi educacion formal.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- separador de secciones: productos -->
+    <div class="p-4 color-1 separador" id="productos">
+      <h3>Juega con Nosotros</h3>
+    </div>
+
+    <!-- seccion principal de productos -->
+    <div class="marco productos">
+      <div class="card-group">
+        <div class="row">
+          <!-- carta 1 -->
+          <div class="card bg-dark p-0 col-sm-12 col-md-6">
+            <img src="../img/productos1.jpg" class="card-img" alt="contruccion-madera-uno">
+            <div class="card-img-overlay">
+              <h5 class="card-title color-3 display-5 sombra-3">Escondidas Extremas</h5>
+              <div class="d-flex justify-content-end align-items-end caja-info">
+                <div>
+                  <button type="button" class="btn bg-3 info" data-bs-toggle="modal" data-bs-target="#escondidas">
+                    Mas informacion
+                  </button>
+                </div>
+              </div>
+              <div class="modal fade" id="escondidas" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" id="ocultar">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title color-5" id="exampleModalLabel">Escondidas Extremas</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body color-1">
+                      </p> Decenas de metros con estructuras especiales para esconderse. Escenarios con tres tematicas
+                      para elegir: <br>
+                      Post-apocalptico <br>
+                      Submarino<br>
+                      Arcoiris <br>
+                      <p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <!-- <button type="button" class="btn bg-2">Envianos un correo</button> -->
+                      <!-- <a href="#footer" role="button" class="btn btn-secondary popover-test" title="Envianos un correo" data-bs-content="contacto@coop-hdz.com">button</a> -->
+                      <a class="tooltip-test color-4 help" title="contacto@coop-hdz.com">Envianos un correo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carta 2 -->
+          <div class="card bg-dark p-0 col-sm-12 col-md-6">
+            <img src="../img/productos2.jpg" class="card-img" alt="contruccion-madera-dos">
+            <div class="card-img-overlay ">
+              <h5 class="card-title color-3 display-5 sombra-3">Curso Basico</h5>
+              <div class="d-flex justify-content-end align-items-end caja-info">
+                <div>
+                  <button type="button" class="btn bg-3 info" data-bs-toggle="modal" data-bs-target="#curso">
+                    Mas informacion
+                  </button>
+                </div>
+              </div>
+              <div class="modal fade" id="curso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title color-5" id="exampleModalLabel">Curso Basico</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body color-1">
+                      </p> Completa nuestro curso basico para crear tu propia silla mecedora. No necesitas conocimietos
+                      previos y solo necesitaras algunas herramientas basicas.
+                      <p>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <a class="tooltip-test color-4 help" title="contacto@coop-hdz.com">Inscribete</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="row">
+          <!-- carta 3 -->
+          <div class="card bg-dark p-0 col-sm-12 col-md-6">
+            <img src="../img/productos3.jpg" class="card-img" alt="contruccion-madera-tres">
+            <div class="card-img-overlay">
+              <h5 class="card-title color-3 h2 sombra-3">Rompecabezas personalizado</h5>
+              <div class="d-flex justify-content-end caja-info align-items-end">
+                <div>
+                  <button type="button" class="btn bg-3 info" data-bs-toggle="modal" data-bs-target="#rompecabezas">
+                    Mas informacion
+                  </button>
+                </div>
+              </div>
+              <div class="modal fade" id="rompecabezas" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title color-5 sombra" id="exampleModalLabel">Rompecabezas</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body color-1">
+                      </p> Envia la foto de tu famlia, con tu pareja o hasta tu mascota. La ponemos en un rompecabezas
+                      de
+                      madera <br>
+                      Chico $100 <br>
+                      Mediano $150 <br>
+                      Grande $200 <br>
+                      Entrega en 5 dias habiles
+                      <p>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <a class="tooltip-test color-4 help" title="contacto@coop-hdz.com">Envia tu foto</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carta4  -->
+          <div class="card bg-dark p-0 col-sm-12 col-md-6">
+            <img src="../img/productos4.jpg" class="card-img" alt="construccion-madera-cuatro">
+            <div class="card-img-overlay">
+              <h5 class="card-title color-3 display-5 sombra-3">Unete a nosotros!</h5>
+              <div class="d-flex justify-content-end caja-info align-items-end">
+                <div>
+                  <button type="button" class="btn bg-3 flex-end" data-bs-toggle="modal" data-bs-target="#unete">
+                    Mas informacion
+                  </button>
+                </div>
+              </div>
+              <div class="modal fade" id="unete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title color-5" id="exampleModalLabel">Unete a nosotros!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body color-1">
+                      </p> Completa todos nuestros cursos para tener la oprtunidad de unirte a la Cooperativa,o si lo
+                      deseas, crear tu propia Cooperativa
+                      <p>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <a class="tooltip-test color-4 help" title="contacto@coop-hdz.com">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- seccion cooperando -->
+    <div class="p-4 color-1 separador" id="valores">
+      <h3>Cooperando</h3>
+    </div>
+
+    <div class="marco">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <!-- carta 1 -->
+          <div class="card">
+            <img src="../img/valores1.jpg" class="card-img-top" alt="valores_solidaridad">
+            <div class="card-body">
+              <h5 class="card-title color-5">Solidaridad</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- carta 2 -->
+          <div class="card">
+            <img src="../img/valores2.jpg" class="card-img-top" alt="valores_ayuda_mutua">
+            <div class="card-body">
+              <h5 class="card-title color-5">Ayuda mutua</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <!-- carta 3 -->
+            <img src="../img/valores3.jpg" class="card-img-top" alt="valores_esfuerzo _propio">
+            <div class="card-body">
+              <h5 class="card-title color-5">Esfuerzo propio</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- carta 4 -->
+          <div class="card">
+            <img src="../img/valores4.jpg" class="card-img-top" alt="valores_reciprocidad">
+            <div class="card-body">
+              <h5 class="card-title color-5">Reciprocidad</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--separador seccion galeria  -->
+    <div class="p-4 color-1 separador" id="galeria">
+      <h3>Galeria</h3>
+    </div>
+    <div class="marco">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <!-- imagen principal carrusel -->
+          <div class="carousel-item active">
+            <img src="../img/zombie.jpg" class="d-block w-100" alt="escenario_zombie">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Escenario Zombie</h5>
+              <p>Escondete para evitar ser mordido</p>
+            </div>
+          </div>
+          <!-- imagen 2 carrusel -->
+          <div class="carousel-item">
+            <img src="../img/submarino.jpg" class="d-block w-100" alt="escenario__sub">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Escenario Submarino</h5>
+              <p>Aniade emocion al juego con la sensacion de estar encerrado bajo el agua</p>
+            </div>
+          </div>
+          <!-- imagen 3 carrusel -->
+          <div class="carousel-item">
+            <img src="../img/arcoiris.jpg" class="d-block w-100" alt="escenario_arcoiris">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Escenario Arcoiris</h5>
+              <p>Si buscas una experiencia menos estresante, esta es la opcion perfecta</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>  -->
+          <!-- iconos del carrusel -->
+          <i class="fa fa-hand-o-left" aria-hidden="true"></i>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <!-- iconos del carrusel -->
+          <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-white" id="footer">
+    <h5>Contactanos</h5>
+    <ul>
+      <li>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <a href="">Facebook</a>
+      </li>
+      <li>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <a href="">Twitter</a>
+      </li>
+      <li>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <a href="">Instagram</a>
+      </li>
+      <li>
+        <i class="fa fa-envelope-o wow animate__animated animate__flash" aria-hidden="true"></i>
+        <p>contacto@coop-hdz.com</p>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<script src="../javascript/app.js"></script>
+
+</html>
